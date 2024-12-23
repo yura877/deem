@@ -41,9 +41,9 @@ network:
 
 
 
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
 
-
-
+*/3 * * * * /home/user/backup.sh
 
 rm -rf <namefile> - удаляет файл
 
